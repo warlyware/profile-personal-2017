@@ -1,1 +1,23 @@
+@import 'overrides';
 @import 'background';
+
+.beige {
+    color: #D47D8B;
+}
+
+a, .dark-blue {
+    color: #3E6C7F;
+}
+
+.font-family-poiret-one {
+    font-family: 'Poiret One', Helvetica !important;
+}
+
+.title-spacing {
+    letter-spacing: 0.4rem;
+}
+
+.icon-sm {
+    height: 20px;
+    width: 24px;
+}

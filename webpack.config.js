@@ -33,7 +33,7 @@ module.exports = {
         new ExtractTextPlugin("[name].css"),
         new CopyWebpackPlugin([
             { from: 'src/index.html', to: 'index.html' },
-            { from: 'src/imgs', to: 'imgs/' }
+            { from: 'src/heart.svg', to: 'heart.svg' }
         ]),
 
     ],
