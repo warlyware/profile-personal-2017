@@ -1,5 +1,6 @@
 @import 'overrides';
 @import 'background';
+@import 'icons';
 
 .beige {
     color: #D47D8B !important;
@@ -19,5 +20,18 @@ a, .dark-blue {
 
 .icon-sm {
     height: 20px;
-    width: 24px;
+    width: 30px;
+}
+
+.icon-md {
+    height: 30px;
+    width: 30px;
+}
+
+.github-icon:before {
+    content: "\f124";
+}
+
+.margin-left-8 {
+    margin-left: 8px;
 }
